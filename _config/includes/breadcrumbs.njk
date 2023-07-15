@@ -1,0 +1,11 @@
+{% set breadcrumb = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key, { includeSelf: true } ) %}
+<div class="section breadcrumbs wf-section"><div class="container-bread w-container"><div class="breadcrumbs">
+{%- for entry in breadcrumb %}
+{% if entry.url == page.url %}
+    <a href="{{ entry.url }}" aria-current="page" class="course-category-link w--current">{{ entry.title }}</a>
+{% else %}
+    <a href="{{ entry.url }}" class="course-category-link">{{ entry.title }}</a>
+    <div class="course-category-title middle">›</div>
+{% endif %}
+{%- endfor -%}
+</div></div></div>
