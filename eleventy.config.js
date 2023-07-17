@@ -3,7 +3,7 @@ const eleventyNavigation = require("@11ty/eleventy-navigation");
 
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPlugin(eleventyNavigation);
-    eleventyConfig.addShortcode("image", async function(src, alt, sizes) {
+    eleventyConfig.addShortcode("image", async function(src, alt, sizes = []) {
         let file = "./content/assets/img/" + src
         let metadata = await eleventyImg(file, { widths: [300, 600], formats: ["avif", "jpeg"], outputDir: "./_site/img/" });
         let imageAttributes = { alt, sizes, loading: "lazy", decoding: "async", };
