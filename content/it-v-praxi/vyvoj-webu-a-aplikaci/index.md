@@ -1,15 +1,11 @@
 ---
 layout: default.njk
 title: Vývoj webu a aplikací
-eleventyNavigation:
-    parent: it-in-practice
-    key: web-development
-    title: Vývoj webu a aplikací
 ---
 
 Staň se tvůrkyní digitálního světa! Objev možnosti tvorby webu a aplikací a staň se členkou vývojového týmu v některé z významných společností. Studium oboru **Vývoj webu a aplikací** ti otevře dveře do světa moderních technologií. Naučíš se tvořit webové stránky v HTML/CSS. Získáš znalosti programování  v JavaScriptu či Javě. Následně se specializuj na vývoj front-endu, či back-endu. A nebo se staň odbornicí na testování, či vytvářej nezapomenutelné uživatelské zkušenosti jako UX designerka. Nenech svůj talent spát a vytvářej inovativní projekty. Staň se webovou kodérkou, developerkou, testerkou nebo UX designerkou a otevři si cestu k úspěchu.
 
-{% image "team.png" "Tým vývoje" %}
+{% image "team.png", "Tým vývoje" %}
 
 #### HTML/CSS kodérka
 se specializuje na tvorbu a úpravu kódu ve formátu HTML a CSS. Její práce se zaměřuje na vytváření struktury webových stránek, formátování a stylizaci obsahu. HTML/CSS kodérka je schopná převést návrh grafického designu na funkční webovou stránku a zajistit její správné zobrazení na různých zařízeních. 

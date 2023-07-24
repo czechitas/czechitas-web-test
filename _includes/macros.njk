@@ -1,0 +1,14 @@
+{% macro courses(filter='') %}
+<style>table td {padding: 10px} </style>
+<table>
+<thead>
+    <tr><th>Kód kurzu</th><th>Název kurzu</th><th>Úroveň</th><th>Počet hodin</th></tr>
+</thead>
+<tbody>
+{% for course in collections.courses | filterCourses(filter) %}
+    {% set item = course.data.item %}
+    <tr><td>{{item.Code}}</td><td><a href="{{ course.page.url }}">{{item.Name}}</a></td><td>{{item.Level}}</td><td>{{item.TeachingHours}}</td>
+{% endfor %}
+</tbody>
+</table>
+{% endmacro %}

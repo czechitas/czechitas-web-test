@@ -1,14 +1,9 @@
 ---
 layout: default.njk
 title: Platformní inženýrství
-eleventyNavigation:
-    parent: it-in-practice
-    key: platform-engineering
-    title: Platformní inženýrství
 --- 
 
-
-{% image "team.png" "Tým datové analýzy a umělé inteligence" %}
+{% image "team.png", "Tým datové analýzy a umělé inteligence" %}
 
 - **Platformní inženýrka** je zodpovědná za návrh, implementaci a správu platformy pro vývoj a provoz aplikací. Zabývá se infrastrukturou, automatizací vývojových procesů, nasazováním aplikací a monitorováním výkonu.
 - **Cloud inženýrka** navrhuje a implementuje cloudové infrastruktury a řešení pro vývoj a provoz aplikací. Zabývá se výběrem vhodných cloudových služeb, optimalizací výkonu, škálovatelností a zajištěním bezpečnosti.
