@@ -18,9 +18,7 @@ Není obrázek
 {% from 'macros.njk' import courses with context%}
 {{ courses('DAT-(001|101|102|.4.)') }}
 
-### Czechitas kurzy Kariérko
-{% from 'macros.njk' import courses with context%}
-{{ courses('CAR-') }}
+Pro větší uplatnitelnost doporučujeme naše kurzy [kariérového poradenství](/it-v-praxi/karierove-poradenstvi/).
 
 ### Czechitas tým
 

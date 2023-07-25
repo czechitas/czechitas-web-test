@@ -1,8 +1,8 @@
 ---
 layout: default.njk
-title: Partnerské kurzy
+title: Poznej Czechitas
 ---
 
-### Partnerské kurzy
+### Czechitas kurzy Poznej
 {% from 'macros.njk' import courses with context%}
-{{ courses('PAR-') }}
+{{ courses('-001') }}
