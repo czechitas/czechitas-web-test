@@ -22,6 +22,10 @@ title: UX designérka
 
 Pro větší uplatnitelnost doporučujeme naše kurzy [kariérového poradenství](/it-v-praxi/karierove-poradenstvi/).
 
+#### Zajímavé rozvojové kurzy z oboru Vývoje webu a aplikací
+{% from 'macros.njk' import courses with context%}
+{{ courses('WEB-312|WEB-313') }}
+
 ### Czechitas tým
 
 ### Partnerské firmy

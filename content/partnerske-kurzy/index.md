@@ -1,8 +1,0 @@
----
-layout: default.njk
-title: Partnerské kurzy
----
-
-### Partnerské kurzy
-{% from 'macros.njk' import courses with context%}
-{{ courses('PAR-') }}

@@ -15,3 +15,8 @@ DigComp 2.2 (Digital Competence Framework for Citizens) je rámec digitálních 
 ### Czechitas kurzy
 {% from 'macros.njk' import courses with context%}
 {{ courses('DC-') }}
+
+
+### Partnerské kurzy
+{% from 'macros.njk' import courses with context%}
+{{ courses('PAR-') }}
