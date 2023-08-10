@@ -22,6 +22,7 @@ module.exports = function(eleventyConfig) {
         return await renderTemplate(template, 'njk', data );
     });
     eleventyConfig.addNunjucksShortcode("image", imageShortcode);
+    // eleventyConfig.addGlobalData("courses", () => {console.log()})
     eleventyConfig.addCollection("courses", function(collectionApi) {
        return collectionApi.getFilteredByGlob('./content/kurzy-*.njk'); 
     });

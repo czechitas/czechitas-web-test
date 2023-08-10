@@ -26,5 +26,4 @@ competences:
     - log analýza, skenování zranitelnosti
     - aktivní komunikativní angličtinu
 courses:
-    intro: 'DAT-10.' 
-    core: 'DAT-(.2.)'
+    core: 'CS-222'

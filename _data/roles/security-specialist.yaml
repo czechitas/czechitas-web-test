@@ -25,5 +25,5 @@ competences:
     - nástroje pro analýzu incidentů a síťového provozu
     - aktivní komunikativní angličtinu
 courses:
-    intro: 'DAT-10.' 
-    core: 'DAT-(.2.)'
+    intro: 'CS-101' 
+    core: 'CS-.11'

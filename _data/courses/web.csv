@@ -14,9 +14,8 @@ Id,Code,Name,Level,TeachingHours,TotalHours,Area,Nahrávka nebo materiály
 2,WEB-231,JavaScript 1,Pokročilí začátečníci,30,40,,https://www.youtube.com/playlist?list=PLTCx5oiCrIJ6fKWSvoMYK2BO5317SYZs-
 54,WEB-331,JavaScript 2,Mírně pokročilí,36,50,,https://www.youtube.com/playlist?list=PLTCx5oiCrIJ4yWLfgf31WgumWlE7_0WPW
 44,WEB-230,Digitální akademie: Web,Pokročilí začátečníci,169,322,,
-132,WEB-432,React 1,Středně pokročilí,36,50,,
+132,WEB-431,React 1,Středně pokročilí,36,50,,
 334,WEB-432,React 2,Středně pokročilí,36,50,,
-350,WEB-433,Typescript,Středně pokročilí,30,40,,
 140,WEB-141,Úvod do programování 1: Java,Úplní začátečníci,7,7,Vývojářka beckendu,
 5,WEB-241,Java 1,Pokročilí začátečníci,30,40,,
 50,WEB-341,Java 2: Webové aplikace,Mírně pokročilí,30,40,,
@@ -24,7 +23,6 @@ Id,Code,Name,Level,TeachingHours,TotalHours,Area,Nahrávka nebo materiály
 49,WEB-251,C# 2,Mírně pokročilí,30,40,,
 362,WEB-351,C# 3,Středně pokročilí,40,50,,
 98,WEB-161,Úvod do UX,Úplní začátečníci,7,7,UX designérka,
-245,WEB-162,UX: Návrh prototypu webu,Úplní začátečníci,24,30,,
 351,WEB-163,UX výzkum,Úplní začátečníci,30,40,,
 4,WEB-261,UX,Pokročilí začátečníci,28,40,,
 198,WEB-361,Figma,Mírně pokročilí,7,7,,

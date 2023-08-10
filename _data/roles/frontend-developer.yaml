@@ -25,5 +25,6 @@ competences:
     - základy UX a UI designu
     - angličtina na úrovni čtení dokumentace, pokud se budeš ucházet o práci v mezinárodní firmě nebo se zahraničními zákazníky, počítej s tím, že budeš potřebovat aktivní komunikativní angličtinu
 courses:
-    intro: 'DAT-10.' 
-    core: 'DAT-(.2.)'
+    intro: 'WEB-(101|102|131)'
+    core: 'WEB-(221|[2-4]31)'
+    extended: 'WEB-(432|.1.)'
