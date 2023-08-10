@@ -16,7 +16,12 @@ DigComp 2.2 (Digital Competence Framework for Citizens) je rámec digitálních 
 {% from 'macros.njk' import courses with context%}
 {{ courses('DC-') }}
 
+### Videa na YouTube
+Pokud se chceš naučit od všeho něco nebo máš třeba jen chvilku při cestě autobusem do práce, jsou tady pro tebe naše kratší vzdělávací videa na YouTube. Najdeš zde spoustu praktických tipů, například:
 
-### Partnerské kurzy
 {% from 'macros.njk' import courses with context%}
-{{ courses('PAR-') }}
+{{ courses('DC-') }}
+
+### Enterprise systémy
+{% from 'macros.njk' import courses with context%}
+{{ courses('ENT-') }}

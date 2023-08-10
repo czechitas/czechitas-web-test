@@ -12,3 +12,61 @@
 </tbody>
 </table>
 {% endmacro %}
+
+{% macro card(link='', title='', description='', cta='') %}
+   <div role="listitem" class="w-dyn-item"><a href="{{ link }}" class="varianty-block hp w-inline-block">
+        <div class="varianty-content-block"><h3 class="heading-70">{{ title }}</h3></div>
+        <div class="varianty-content-block feature"><p> {{ description }} </p></div>
+        <div class="varianty-content-block feature with-button"><div class="button in-bubble">{{ cta }}</div></div></a>
+    </div>
+{% endmacro %}
+
+{% macro roleDetail(role) %}
+
+{% image role.avatar, role.name %}
+
+<h3>Co {{ role.name }} dělá?</h3>
+<p>{{ role.aboutRole }}</p>
+
+<h3>{{ role.name }} tě bude bavit, pokud ...</h3>
+<ul>
+{% for item in role.enjoyRole %}
+    <li>{{ item }}</li>
+{% endfor %}
+</ul>
+
+<h3>Potřebné dovednosti</h3>
+<ul>
+{% for item in role.competences %}
+    <li>{{ item }}</li>
+{% endfor %}
+</ul>
+
+
+<h3>Czechicesta</h3>
+{% image role.pathImg, "Czechicesta" %}
+
+{% if role.courses.intro %}
+<h4>Úvodní kurzy oboru</h4>
+<p>S těmito kurzy bys měla začít pokud o daném oboru nic nevíš:</p>
+{{ courses(role.courses.intro) }}
+{% endif %}
+
+<h4>Základní kurzy oboru</h4>
+{{ courses(role.courses.core) }}
+
+Pro větší uplatnitelnost doporučujeme naše kurzy [kariérového poradenství](/karierove-poradenstvi/).
+
+{% if role.courses.extended %}
+#### Rozvojové kurzy oboru
+{{ courses(role.courses.extended) }}
+{% endif %}
+
+<h3>Czechitas tým</h3>
+<ul>
+    <li>Produktový manažer: {{ role.team.po }} </li>
+    <li>Garant vzdělání: {{ role.team.garant }} </li>
+    <li>Expertní tým: {{ role.team.experts }} </li>
+</ul>
+<h3>Partnerské firmy</h3>
+{% endmacro %}

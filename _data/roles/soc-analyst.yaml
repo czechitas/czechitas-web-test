@@ -1,0 +1,30 @@
+name: SOC analytička
+url: /cesta-do-it/soc-analyticka/
+avatar: avatar.jpeg
+pathImg: cesta/soc-analyticka.png
+shortDescription: >
+    Zaměřuje se na sběr, analýzu a interpretaci informací o bezpečnostních hrozbách a útocích. Zabývá se monitorováním
+    bezpečnostních událostí, vyhodnocováním rizik a poskytováním návrhů na zlepšení bezpečnosti.
+cta: Chci být SOC analytička
+aboutRole: > 
+    Naše data nejsou jen informace, jsou to zdroje, mají hodnotu, je tedy možné je i ukrást nebo zneužít,
+    a to jak u jednotlivců, tak u firem. SOC analytička se zaměřuje na sběr, analýzu a interpretaci informací
+    o bezpečnostních hrozbách a útocích. Zabývá se monitorováním bezpečnostních událostí, vyhodnocováním rizik
+    a poskytováním návrhů na zlepšení bezpečnosti, pomáhá vytvářet a nasazovat bezpečnostní opatření a politiky
+    pro zabezpečení sítí, systémů a dat. Cybersecurity analytička se tedy zaměřuje na analýzu kybernetických hrozeb
+    a incidentů a reakci na ně.
+enjoyRole:
+    - máš ráda řešení záhad, detektivky, logické hry a hádanky, hledání skrytých vzorců a odhalování neznámých faktů
+    - ráda řešíš problémy
+    - máš dobré pozorovací schopnosti a všímáš si detailů
+    - ráda spolupracuješ s ostatními a máš dobré komunikační schopnosti
+    - samozřejmě se zajímáš o technologie a ráda se učíš
+competences:
+    - znalost různých typů kybernetických hrozeb, bezpečnostní nástroje, firewally, antivirové programy, IDS/IPS systémy, SIEM (Security Information and Event Management) nástroje atd.
+    - operační systémy a sítové protokoly
+    - postupy pro reakci na bezpečnostní incidenty, legislativa
+    - log analýza, skenování zranitelnosti
+    - aktivní komunikativní angličtinu
+courses:
+    intro: 'DAT-10.' 
+    core: 'DAT-(.2.)'

@@ -1,24 +1,21 @@
 Id,Code,Name,Level,TeachingHours,TotalHours,Area
-293,DAT-001,Poznej Datovou analýzu,Nezáleží na znalostech,2,2,Poznej
-91,DAT-101,Excel 1,Úplní začátečníci,7,7,Společné kurzy
-88,DAT-102,SQL 1,Úplní začátečníci,7,7,
-58,DAT-103,Úvod do programování 1: Python,Úplní začátečníci,7,7,
-354,DAT-311,Objektově orientované programování v Pythonu,Mírně pokročilí,7,7,
-224,DAT-121,SQL,Úplní začátečníci,18,18,Data inženýrka
-89,DAT-222,SQL 2,Pokročilí začátečníci,7,7,
-90,DAT-322,SQL 3,Mírně pokročilí,7,7,
-341,DAT-323,Data Warehouse,Mírně pokročilí,24,34,
-342,DAT-324,Big Data,Mírně pokročilí,24,34,
-343,DAT-325,Data Tools,Mírně pokročilí,24,34,
-154,DAT-131,Základy datové analytiky,Úplní začátečníci,36,51,Data analytička
-43,DAT-231,Digitální akademie: Data,Pokročilí začátečníci,162,309,
+293,DAT-001,Poznej Datovou analýzu a AI,Nezáleží na znalostech,2,2,Poznej
+294,DAT-002,Poznej Digitální akademie: Data,Nezáleží na znalostech,2,2,
+84,DAT-101,Úvod do datové analýzy,Úplní začátečníci,7,7,Společné kurzy
+58,DAT-102,Úvod do programování 1: Python,Úplní začátečníci,7,7,
+224,DAT-121,SQL,Úplní začátečníci,18,18,
+154,DAT-131,Základy datové analytiky,Úplní začátečníci,36,51,
 197,DAT-232,Python 1,Pokročilí začátečníci,35,40,
-167,DAT-331,Python pro data 1,Mírně pokročilí,7,7,
-183,DAT-332,Python pro data 2,Mírně pokročilí,7,7,
-92,DAT-141,Excel 2,Úplní začátečníci,7,7,BI vývojářka
-85,DAT-241,Tableau,Pokročilí začátečníci,7,7,
 86,DAT-242,Power BI 1,Pokročilí začátečníci,7,7,
 87,DAT-342,Power BI 2,Mírně pokročilí,7,7,
+354,DAT-311,Objektově orientované programování v Pythonu,Mírně pokročilí,7,7,
+43,DAT-231,Digitální akademie: Data,Pokročilí začátečníci,162,309,Datová analytička
+167,DAT-331,Python pro data 1,Mírně pokročilí,7,7,
+183,DAT-332,Python pro data 2,Mírně pokročilí,7,7,
+343,DAT-325,Data Tools,Mírně pokročilí,24,34,
+341,DAT-323,Data Warehouse,Mírně pokročilí,24,34,Data inženýrka
+342,DAT-324,Big Data,Mírně pokročilí,24,34,
 306,DAT-351,Data Science Foundations,Mírně pokročilí,27,37,Datová vědkyně
 217,DAT-352,Python pro Data Science,Mírně pokročilí,30,40,
 237,DAT-451,Zpracování přirozeného jazyka (NLP),Středně pokročilí,6,6,
+,,Velké jazykové modely v AI,Středně pokročilí,,,

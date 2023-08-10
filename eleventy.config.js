@@ -3,15 +3,19 @@ const eleventyNavigation = require("@11ty/eleventy-navigation");
 const yaml = require("js-yaml");
 const { parse } = require('csv-parse/sync');
 
+function imageShortcode(src, alt = '', cls = '', sizes = [], widths = [300, 600]) {
+    let file = "./content/assets/img/" + src
+	let options = { widths: widths, formats: ['jpeg'], outputDir: "./_site/img/", };
+	eleventyImg(file, options);
+
+	let imageAttributes = { class: cls, alt, sizes, loading: "lazy", decoding: "async", };
+	let metadata = eleventyImg.statsSync(file, options);
+	return eleventyImg.generateHTML(metadata, imageAttributes);
+}
+
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPlugin(eleventyNavigation);
-    eleventyConfig.addShortcode("image", async function(src, alt, sizes = []) {
-        let file = "./content/assets/img/" + src
-        let metadata = await eleventyImg(file, { widths: [300, 600], formats: ["avif", "jpeg"], outputDir: "./_site/img/" });
-        let imageAttributes = { alt, sizes, loading: "lazy", decoding: "async", };
-    
-        return eleventyImg.generateHTML(metadata, imageAttributes);
-    });
+    eleventyConfig.addNunjucksShortcode("image", imageShortcode);
     eleventyConfig.addCollection("courses", function(collectionApi) {
        return collectionApi.getFilteredByGlob('./content/kurzy-*.njk'); 
     });

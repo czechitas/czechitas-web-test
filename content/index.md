@@ -12,8 +12,8 @@ eleventyNavigation:
         <div class="varianty-content-block feature"><p>Svět se digitalizuje a znalost základů IT je dnes samozřejmostí. Nauč se využívat digitální technologie ve svůj prospěch.</p></div>
         <div class="varianty-content-block feature with-button"><div class="button in-bubble">Zjisti více</div></div></a>
     </div>
-    <div role="listitem" class="w-dyn-item"><a href="/it-v-praxi/" class="varianty-block hp w-inline-block">
-        <div class="varianty-content-block"><h3 class="heading-70">Hledám práci v&nbsp;IT</h3></div>
+    <div role="listitem" class="w-dyn-item"><a href="/cesta-do-it/" class="varianty-block hp w-inline-block">
+        <div class="varianty-content-block"><h3 class="heading-70">Chci pracovat v&nbsp;IT</h3></div>
         <div class="varianty-content-block feature"><p>Získej potřebné IT dovednosti a nalezni uplatnění v některém ze současných IT týmů: vývoj webu a aplikací, datová analýza a kyberbezpečnost.</p></div>
         <div class="varianty-content-block feature with-button"><div class="button in-bubble">Zjisti více</div></div></a>
     </div>

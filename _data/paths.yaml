@@ -1,0 +1,22 @@
+intro: >
+    V našich vzdělávacích programech není nutné mít předchozí odborné IT zkušenosti. Vzdělávací programy jsou navrženy tak, 
+    aby ti poskytly potřebné znalosti pro práci v daných IT týmech a IT rolích. Přímo v průběhu programu se naučíš vše, 
+    co potřebuješ vědět, a budou ti k dispozici odborníci, kteří tě provedou procesem učení. 
+
+    Pokud by ti nebyly následující role jasné, přijď na náš kurz <a href="/poznej/">Poznej</a>.
+teams:
+    - name: Vývoj webu a aplikací
+      description: >
+        Objev možnosti tvorby digitálního světa a staň se členkou vývojového týmu v některé z významných společností. 
+        Nenech svůj talent spát a vytvářej inovativní projekty.
+      roles: ['html-css-coder', 'frontend-developer', 'backend-developer', 'tester', 'ux-designer']
+    - name: Datová analýza a AI
+      description: >
+        Rozviň svůj talent pro práci s daty a připoj se k týmu datových expertek. Přinášej nové perspektivy
+        a objevuj nečekané souvislosti prostřednictvím dat. 
+      roles: ['data-engineer', 'data-analyst', 'data-scientist']
+    - name: Kybernetická bezpečnost
+      description: >
+        Připoj se k týmu profesionálek, které chrání digitální svět před hrozbami a zabezpečují citlivá data a systémy před útoky.
+      roles: ['security-specialist', 'soc-analyst']
+      
