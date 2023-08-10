@@ -28,3 +28,4 @@ courses:
     intro: 'WEB-(101|102|131)'
     core: 'WEB-(221|[2-4]31)'
     extended: 'WEB-(432|.1.)'
+partners: ['anthology', 'netsuite']

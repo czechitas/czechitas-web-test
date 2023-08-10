@@ -28,3 +28,4 @@ courses:
     intro: 'WEB-(102|171|172)'
     core: 'WEB-270'
     extended: 'WEB-(47.|.1.)'
+partners: ['notino', 'jmk', 'anthology']

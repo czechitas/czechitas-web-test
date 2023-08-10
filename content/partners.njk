@@ -1,0 +1,13 @@
+---
+layout: default.njk
+pagination:
+    data: partners
+    size: 1
+    addAllPagesToCollections: true
+    alias: item
+permalink: "/partneri/{{ item.key }}/index.html"
+eleventyComputed:
+  title: "{{ item.name }}"
+---
+<p>Společnost {{item.name}} je úplně boží a jsme velmi rádi že ji máme.</p>
+{% image item.logo, item.name %}

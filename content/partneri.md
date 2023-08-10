@@ -1,0 +1,9 @@
+---
+layout: default.njk
+title: Katalog partnerů
+---
+
+{% for partner in collections.partners %}
+    {% set item = partner.data.item %}
+    <a href="{{ partner.page.url }}">{% image item.logo, item.name %}</a>
+{% endfor %}

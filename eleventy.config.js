@@ -6,7 +6,7 @@ const { EleventyRenderPlugin } = require("@11ty/eleventy");
 
 function imageShortcode(src, alt = '', cls = '', sizes = [], widths = [300, 600]) {
     let file = "./content/assets/img/" + src
-	let options = { widths: widths, formats: ['jpeg'], outputDir: "./_site/img/", };
+	let options = { widths: widths, formats: ['auto'], outputDir: "./_site/img/", };
 	eleventyImg(file, options);
 
 	let imageAttributes = { class: cls, alt, sizes, loading: "lazy", decoding: "async", };
@@ -26,7 +26,6 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addCollection("courses", function(collectionApi) {
        return collectionApi.getFilteredByGlob('./content/kurzy-*.njk'); 
     });
-
     eleventyConfig.addNunjucksFilter("filterCourses", function(collection, filter) {
         if (filter) {
             const regex = new RegExp(filter);
@@ -34,7 +33,12 @@ module.exports = function(eleventyConfig) {
         }
         return collection;
     });
-    
+    eleventyConfig.addCollection("partners", function(collectionApi) {
+        return collectionApi.getFilteredByGlob('./content/partners.njk'); 
+    });
+    eleventyConfig.addNunjucksFilter("getPartner", function(collection, key) {   
+        return collection.find(partner => partner.data.item.key == key)
+    });    
     eleventyConfig.addDataExtension("yaml", contents => yaml.load(contents));
     eleventyConfig.addDataExtension("csv", contents => parse(contents, { columns: true, skip_empty_lines: true }));
 

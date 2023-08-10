@@ -1,0 +1,33 @@
+- key: msd
+  name: MSD
+  logo: partners/msd.png
+- key: notino
+  name: Notino
+  logo: partners/notino.png
+- key: jmk
+  name: Jihomoravský kraj
+  logo: partners/jihomoravsky-kraj.jpg
+- key: anthology
+  name: Anthology
+  logo: partners/anthology.jpg
+  url: https://www.anthology.com/
+- key: gen
+  name: GEN digital
+  logo: partners/gen.png
+  url: https://www.gendigital.com/
+- key: netsuite
+  name: NetSuite
+  logo: partners/oracle-netsuite.png
+  url: https://www.netsuite.com/
+- key: barclays
+  name: Barclays 
+  logo: partners/barclays.jpg
+  url: https://www.barclays.co.uk/
+- key: sap
+  name: SAP
+  logo: partners/sap.png
+  url: https://www.sap.com/
+- key: thermo
+  name: Thermo Fisher Scientific  
+  logo: partners/thermo.png
+  url: https://www.thermofisher.com/
