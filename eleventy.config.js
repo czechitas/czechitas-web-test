@@ -2,6 +2,7 @@ const eleventyImg = require("@11ty/eleventy-img");
 const eleventyNavigation = require("@11ty/eleventy-navigation");
 const yaml = require("js-yaml");
 const { parse } = require('csv-parse/sync');
+const { EleventyRenderPlugin } = require("@11ty/eleventy");
 
 function imageShortcode(src, alt = '', cls = '', sizes = [], widths = [300, 600]) {
     let file = "./content/assets/img/" + src
@@ -15,10 +16,16 @@ function imageShortcode(src, alt = '', cls = '', sizes = [], widths = [300, 600]
 
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPlugin(eleventyNavigation);
+    eleventyConfig.addPlugin(EleventyRenderPlugin);
+    eleventyConfig.addShortcode("renderVariable", async function (template, data) {
+        const { renderTemplate } = eleventyConfig.javascriptFunctions;
+        return await renderTemplate(template, 'njk', data );
+    });
     eleventyConfig.addNunjucksShortcode("image", imageShortcode);
     eleventyConfig.addCollection("courses", function(collectionApi) {
        return collectionApi.getFilteredByGlob('./content/kurzy-*.njk'); 
     });
+
     eleventyConfig.addNunjucksFilter("filterCourses", function(collection, filter) {
         if (filter) {
             const regex = new RegExp(filter);

@@ -2,11 +2,12 @@
 layout: default.njk
 title: Cesta do IT
 ---
-{% from 'macros.njk' import card with context%}
-{{ paths.intro | safe }}
+{% from 'macros.njk' import courseLink, card with context%}
+<p>{{ paths.intro }}</p>
 {% for team in paths.teams  %}
 <h3>{{ team.name }}</h3>
-<p>{{ team.description }}</p>
+{% set data = { introCourse: courseLink(team.introCourse) } %}
+<p>{% renderVariable team.description, data %}</p>
 <div class="w-dyn-list"><div role="list" class="collection-list-6 overflow w-dyn-items" style="margin-top:0px">
 {% for roleName in team.roles %}
 {% set role = roles[roleName] %}
