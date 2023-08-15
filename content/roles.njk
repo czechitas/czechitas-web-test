@@ -30,6 +30,15 @@ eleventyComputed:
 {% endfor %}
 </ul>
 
+{% if salary[item] %}
+<h3>Informace z firem</h3>
+<p>
+    Platové rozmezí: {{ salary[item].salary.min }}Kč - {{ salary[item].salary.max }}Kč</br>
+    Počet žen na pozici: {{ salary[item].womenInIT }}%</br>
+    Více informací na serveru <a href="{{salary[item].link}}">Platy.cz</a>
+</p>
+{% endif %}
+
 
 <h3>Czechicesta</h3>
 {% image role.pathImg, "Czechicesta" %}
@@ -48,6 +57,15 @@ eleventyComputed:
 {% if role.courses.extended %}
 <h4>Rozvojové kurzy oboru</h4>
 {{ courses(role.courses.extended) }}
+{% endif %}
+
+{% if role.selfStudy %}
+<h3>Samostudium<h3>
+{% for item in role.selfStudy %}
+    <h4>{{ item.title }}</h4>
+    {{ item.description | safe }}
+{% endfor %}    
+
 {% endif %}
 
 <h3>Czechitas tým</h3>

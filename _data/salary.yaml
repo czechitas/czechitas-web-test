@@ -1,0 +1,38 @@
+html-css-coder:
+    salary:
+        min: 35851
+        max: 76710
+    womenInIT: 38
+    link: "https://www.platy.cz/platy/informacni-technologie/webmaster"
+frontend-developer:
+    salary:
+        min: 39969
+        max: 97272
+    womenInIT: 16
+    link: "https://www.platy.cz/platy/informacni-technologie/frontend-developer"
+backend-developer:
+    salary:
+        min: 48012
+        max: 117781
+    womenInIT: 9
+    link: "https://www.platy.cz/platy/informacni-technologie/backend-developer"
+tester:
+    salary:
+        min: 36099
+        max: 76555
+    womenInIT: 42
+    link: "https://www.platy.cz/platy/informacni-technologie/it-tester"
+ux-designer:
+    salary:
+        min: 40968
+        max: 100496
+    womenInIT: 37
+    link: "https://www.platy.cz/platy/informacni-technologie/user-experience-expert"
+data-scientist:
+    salary:
+        min: 42929
+        max: 114082
+    womenInIT: 23
+    link: "https://www.platy.cz/platy/informacni-technologie/data-scientist"
+
+
