@@ -32,13 +32,12 @@ eleventyComputed:
 
 {% if salary[item] %}
 <h3>Informace z firem</h3>
-<p>
-    Platové rozmezí: {{ salary[item].salary.min }}Kč - {{ salary[item].salary.max }}Kč</br>
-    Počet žen na pozici: {{ salary[item].womenInIT }}%</br>
-    Více informací na serveru <a href="{{salary[item].link}}">Platy.cz</a>
-</p>
+<ul>
+    <li>Platové rozmezí: {{ salary[item].salary.min }}Kč - {{ salary[item].salary.max }}Kč</li>
+    <li>Počet žen na pozici: {{ salary[item].womenInIT }}%</li>
+</ul>
+<p><i>Více informací na serveru <a href="{{salary[item].link}}">Platy.cz</a></i></p>
 {% endif %}
-
 
 <h3>Czechicesta</h3>
 {% image role.pathImg, "Czechicesta" %}

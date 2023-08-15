@@ -28,11 +28,24 @@ ux-designer:
         max: 100496
     womenInIT: 37
     link: "https://www.platy.cz/platy/informacni-technologie/user-experience-expert"
+data-analyst:
+    salary:
+        min: 36621 
+        max: 73098
+    womenInIT: 41
+    link: "https://www.platy.cz/platy/ekonomika-finance-ucetnictvi/analytik-dat"
 data-scientist:
     salary:
         min: 42929
         max: 114082
     womenInIT: 23
     link: "https://www.platy.cz/platy/informacni-technologie/data-scientist"
+security-specialist:
+    salary:
+        min: 41680
+        max: 101420
+    womenInIT: 9
+    link: "https://www.platy.cz/platy/informacni-technologie/specialista-it-bezpecnosti"
+
 
 

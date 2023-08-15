@@ -29,3 +29,9 @@ competences:
 courses:
     intro: 'DAT-10.' 
     core: 'DAT-(.2.)'
+selfStudy:
+    - title: SkillsBuild
+      description: >
+        <p>SkillsBuild je online bezplatná vzdělávací platforma vyvíjená společností IBM. Nabízí široké spektrum pestrého vzdělávacího obsahu zcela zdarma s možností zakončit studium digitálním certifikátem u vybraných kurzů. Obsah platformy je převážně v anglickém jazyce s několika kurzy přeložených do českého jazyka.</p>
+        <p>Vystudujte kurzy z tématu "Datová analýza a datová věda".</p>
+        <p>➡️ Přihlásit na <a href="https://sb-auth.skillsbuild.org/signup?ngo-id=0261">SkillsBuild</a></p> 
