@@ -1,0 +1,22 @@
+---
+layout: default.njk
+pagination:
+    data: topics
+    size: 1
+    addAllPagesToCollections: true
+    alias: item
+    filter:
+        - commercial
+permalink: "{{ topics[item].url }}/index.html"
+eleventyComputed:
+  title: "{{ topics[item].name }}"
+---
+{% from 'macros.njk' import cards, courseLink with context%}
+{% set topic = topics[item] %}
+{% if topic.intro %}{{ topic.intro | safe }}{% endif %}
+{% if topic.sections %}{% for section in topic.sections %}
+<h3>{{ section.name }}</h3>
+<p>{% renderVariable section.description, { introCourse: courseLink(section.introCourse) } %}</p>
+{% if section.roles %}{{ cards(roles, section.roles) }}{% endif %}
+{% if section.competencies %}{{ cards(competencies, section.competencies) }}{% endif %}
+{% endfor %}{% endif %}

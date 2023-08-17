@@ -27,8 +27,9 @@ competences:
     - docker a kontejnerizace
     - aktivní komunikativní angličtina
 courses:
-    intro: 'DAT-10.' 
-    core: 'DAT-(.2.)'
+    intro: 'DAT-(101|121)' 
+    core: 'DAT-(111|.4.|221|322)'
+    extended: 'DAT-321'
 selfStudy:
     - title: SkillsBuild
       description: >

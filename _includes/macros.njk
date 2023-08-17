@@ -1,6 +1,6 @@
 {% macro courseLink(id) %}{% set course = collections.courses | filterCourses(id) | first %}{% set item = course.data.item %}<a href="{{ course.page.url }}">{{item.Name}}</a>{% endmacro %}
 
-{% macro courses(filter='') %}
+{% macro courseTable(filter='') %}
 <style>table td {padding: 10px} </style>
 <table>
 <thead>
@@ -21,4 +21,13 @@
         <div class="varianty-content-block feature"><p> {{ description }} </p></div>
         <div class="varianty-content-block feature with-button"><div class="button in-bubble">{{ cta }}</div></div></a>
     </div>
+{% endmacro %}
+
+{% macro cards(items, keys, margin = true) %}
+<div class="w-dyn-list"><div role="list" class="collection-list-6 overflow w-dyn-items"{% if margin%} style="margin-top:0px"{% endif %}>
+{% for key in keys  %}
+{% set item = items[key] %}
+{{ card(item.url, item.name, item.shortDescription, item.cta) }}
+{% endfor %}
+</div></div>
 {% endmacro %}

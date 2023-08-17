@@ -26,7 +26,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addNunjucksShortcode("image", imageShortcode);
     // eleventyConfig.addGlobalData("courses", () => {console.log()})
     eleventyConfig.addCollection("courses", function(collectionApi) {
-       return collectionApi.getFilteredByGlob('./content/kurzy-*.njk'); 
+       return collectionApi.getFilteredByGlob('./content/courses.njk'); 
     });
     eleventyConfig.addNunjucksFilter("filterCourses", function(collection, filter) {
         if (filter) {

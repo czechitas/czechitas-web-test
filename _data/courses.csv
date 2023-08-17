@@ -1,0 +1,75 @@
+Id,Code,Name,Status,Level,TeachingHours,TotalHours,Employability,,Area
+162,CZ-001,Poznej Czechitas,Update,Nezáleží na znalostech,2,2,,,Poznej
+296,WEB-001,Poznej Vývoj webu a aplikací,Update,Nezáleží na znalostech,2,2,,,
+379,WEB-002,Poznej Digitální akademii: Web,Split,Nezáleží na znalostech,2,2,,,
+380,WEB-003,Poznej Digitální akademii: Testování,Split,Nezáleží na znalostech,2,2,,,
+293,DAT-001,Poznej Datovou analýzu a AI,Update,Nezáleží na znalostech,2,2,,,
+381,DAT-002,Poznej Digitální akademii: Data,Split,Nezáleží na znalostech,2,2,,,
+352,CS-001,Poznej Kybernetickou bezpečnost,Update,Nezáleží na znalostech,2,2,,,
+370,CS-002,Poznej Digitální akademii: Kyberbezpečnost,Update,Nezáleží na znalostech,2,2,,,
+68,WEB-101,Úvod do HTML a CSS,Ok,Úplní začátečníci,7,7,,,Společné kurzy WEB
+150,WEB-211,Správa systémů pro aplikace (DevOps),Ok,Pokročilí začátečníci,25,35,"24,07",,
+76,WEB-311,IT analýza,Update,Mírně pokročilí,7,7,,,
+376,WEB-112,Agilní vývoj,Merge,Úplní začátečníci,14,14,,,
+1,WEB-221,HTML a CSS 1,Ok,Pokročilí začátečníci,30,40,"6,47",,Kodérka
+9,WEB-321,HTML a CSS 2,Update,Mírně pokročilí,30,40,"8,33",,
+152,WEB-220,Staň se kodérkou,Ok,Pokročilí začátečníci,24,100,"10,67",,
+57,WEB-131,Úvod do programování 1: JavaScript,Ok,Úplní začátečníci,7,7,,,Vývojářka frontendu
+2,WEB-231,JavaScript 1,Ok,Pokročilí začátečníci,30,40,"11,07",,
+54,WEB-331,JavaScript 2,Ok,Mírně pokročilí,36,50,"23,86",,
+44,WEB-230,Digitální akademie: Web,Ok,Pokročilí začátečníci,169,322,"46,45",,
+132,WEB-431,React 1,Ok,Středně pokročilí,36,50,"23,97",,
+334,WEB-432,React 2,Ok,Středně pokročilí,36,50,"31,58",,
+140,WEB-141,Úvod do programování 1: Java,Ok,Úplní začátečníci,7,7,,,Vývojářka beckendu
+5,WEB-241,Java 1,Ok,Pokročilí začátečníci,30,40,"9,09",,
+50,WEB-341,Java 2: Webové aplikace,Ok,Mírně pokročilí,30,40,"17,98",,
+48,WEB-151,C# 1,Ok,Úplní začátečníci,30,40,"7,23",,
+49,WEB-251,C# 2,Ok,Mírně pokročilí,30,40,"15,94",,
+362,WEB-351,C# 3,New,Středně pokročilí,40,50,,,
+98,WEB-161,Úvod do UX,Ok,Úplní začátečníci,7,7,,,UX designérka
+351,WEB-163,UX výzkum,New,Úplní začátečníci,30,40,,,
+4,WEB-261,UX,Update,Pokročilí začátečníci,28,40,"11,52",,
+198,WEB-361,Figma,Ok,Mírně pokročilí,7,7,,,
+303,WEB-171,Úvod do vývoje software,New,Úplní začátečníci,3,3,,,
+82,WEB-172,Úvod do testování,Update,Úplní začátečníci,7,7,,,Testerka
+301,WEB-173,Test it - testování v praxi,Update,Úplní začátečníci,4,4,,,
+143,WEB-270,Digitální akademie: Testování,Ok,Pokročilí začátečníci,140,271,"57,82",,
+83,WEB-471,Úvod do automatizace v testování,Ok,Středně pokročilí,7,7,,,
+321,WEB-472,Automatizace v testování: WebdriverIO,Ok,Středně pokročilí,30,30,"10,53",,
+374,WEB-473,Automatizace testování: Selenium & C#,New,Středně pokročilí,30,30,,,
+84,DAT-101,Úvod do datové analýzy,Ok,Úplní začátečníci,7,7,,,Společné kurzy DAT
+154,DAT-111,Základy datové analytiky,Ok,Úplní začátečníci,36,51,"7,39",,
+58,DAT-121,Úvod do programování 1: Python,Ok,Úplní začátečníci,7,7,,,
+197,DAT-221,Python 1,Ok,Pokročilí začátečníci,35,40,,,
+354,DAT-321,Objektově orientované programování v Pythonu,Ok,Mírně pokročilí,7,7,,,
+43,DAT-231,Digitální akademie: Data,Ok,Pokročilí začátečníci,162,309,"48,84",,Datová analytička
+378,DAT-322,Python pro Data Analysts,Merge,,14,14,,,
+343,DAT-332,Data Tools,New,Mírně pokročilí,24,34,,,
+341,DAT-341,Data Warehouse,New,Mírně pokročilí,24,34,,,Data inženýrka
+342,DAT-342,Big Data,New,Mírně pokročilí,24,34,,,
+306,DAT-351,Data Science Foundations,Ok,Mírně pokročilí,27,37,"7,14",,Datová vědkyně
+217,DAT-352,Python pro Data Science,Ok,Mírně pokročilí,30,40,"10,81",,
+237,DAT-451,Zpracování přirozeného jazyka (NLP),New,Středně pokročilí,6,6,,,
+347,CS-101,Úvod do kybernetické bezpečnosti,Ok,Úplní začátečníci,8,8,,,Kyberbezpečnost
+375,CS-201,Základy firemní bezpečnosti,New,Pokročilí začátečníci,30,30,,,
+358,CS-222,Digitální akademie: Kyberbezpečnost,Ok,Pokročilí začátečníci,400,600,,,
+79,DC-101,Přehled IT pojmů,Ok,Úplní začátečníci,7,7,,,Obecné
+,DC-102,AI pro začátečníky,,Úplní začátečníci,7,7,,,
+156,DC-103,Úvod do algoritmů,Ok,Úplní začátečníci,7,7,,,
+96,DC-111,Canva,Update,Úplní začátečníci,7,7,,,Tvorba obsahu
+180,DC-112,WordPress,Update,Úplní začátečníci,25,85,,,
+91,DC-131,Excel 1,Ok,Úplní začátečníci,7,7,,,Datová gramotnost
+92,DC-132,Excel 2,Ok,Úplní začátečníci,7,7,,,
+224,DC-133,SQL,Update,Úplní začátečníci,18,18,,,
+377,DC-234,Power BI,Merge,Pokročilí začátečníci,14,14,,,
+99,DC-141,Základy uživatelské bezpečnosti,Ok,Úplní začátečníci,7,7,,,Bezpečnost
+299,DC-341,Bezpečnost koncových zařízení,Ok,Úplní začátečníci,7,8,,,
+371,DC-261,Úvod do Salesforce Marketing Cloud,New,Pokročilí začátečníci,7,11,,,Enterprise
+,DC-361,Salesforce Marketing Cloud,New,Mírně pokročilí,30,30,,,
+355,DC-251,Automatizace s Microsoft 365 Power Platform,Ok,Pokročilí začátečníci,36,46,,,
+242,CAR-031,Brněnský Job Fair Czechitas,Ok,Nezáleží na znalostech,6,6,,,JobFair
+120,CAR-032,Pražský Job Fair Czechitas,Ok,Nezáleží na znalostech,6,6,,,
+117,CAR-011,CV a osobní značka,Update,Nezáleží na znalostech,6,6,,,Karierko
+118,CAR-012,LinkedIn pro profesní tranzice,Update,Nezáleží na znalostech,6,6,,,
+119,CAR-013,Příprava na pohovor,Update,Nezáleží na znalostech,6,6,,,
+363,CAR-021,Angličtina pro DA,Update,Nezáleží na znalostech,6,6,,,

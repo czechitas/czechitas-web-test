@@ -9,7 +9,7 @@ permalink: "{{ roles[item].url }}/index.html"
 eleventyComputed:
   title: "{{ roles[item].name }}"
 ---
-{% from 'macros.njk' import courses with context%}
+{% from 'macros.njk' import courseTable with context%}
 {% set role = roles[item] %}
 {% image role.avatar, role.name %}
 
@@ -45,17 +45,17 @@ eleventyComputed:
 {% if role.courses.intro %}
 <h4>Úvodní kurzy oboru</h4>
 <p>S těmito kurzy bys měla začít pokud o daném oboru nic nevíš:</p>
-{{ courses(role.courses.intro) }}
+{{ courseTable(role.courses.intro) }}
 {% endif %}
 
 <h4>Základní kurzy oboru</h4>
-{{ courses(role.courses.core) }}
+{{ courseTable(role.courses.core) }}
 
 <p>Pro větší uplatnitelnost doporučujeme naše kurzy <a href="/karierove-poradenstvi/">kariérového poradenství</a>.<p>
 
 {% if role.courses.extended %}
 <h4>Rozvojové kurzy oboru</h4>
-{{ courses(role.courses.extended) }}
+{{ courseTable(role.courses.extended) }}
 {% endif %}
 
 {% if role.selfStudy %}

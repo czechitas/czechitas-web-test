@@ -27,8 +27,9 @@ competences:
     - vizualizační nástroje typu PowerBI nebo Tableau
     - aktivní komunikativní angličtina
 courses:
-    intro: 'DAT-10.' 
-    core: 'DAT-(131|232|33.|325)'
+    intro: 'DAT-(101|121)' 
+    core: 'DAT-(111|221|322|332)'
+    extended: 'DAT-321'
 selfStudy:
     - title: SkillsBuild
       description: >
