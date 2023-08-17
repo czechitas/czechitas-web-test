@@ -13,7 +13,7 @@ eleventyComputed:
 ---
 {% from 'macros.njk' import cards, courseLink with context%}
 {% set topic = topics[item] %}
-{% if topic.intro %}{{ topic.intro | safe }}{% endif %}
+{% if topic.intro %}{% renderVariable topic.intro, { introCourse: courseLink(topic.introCourse) } %}{% endif %}
 {% if topic.sections %}{% for section in topic.sections %}
 <h3>{{ section.name }}</h3>
 <p>{% renderVariable section.description, { introCourse: courseLink(section.introCourse) } %}</p>

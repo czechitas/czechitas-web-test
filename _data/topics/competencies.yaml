@@ -7,13 +7,15 @@ cta: Chci digitální dovednosti
 intro: >
     <p>Pokud se s IT teprve seznamuješ a nebo hledáš určitou dovednost, je program <strong>Digitální dovednosti</strong> pro tebe ideální volbou.
     Zde najdeš širokou škálu kurzů, které ti pomohou postavit se na své vlastní nohy a objevit různé IT koncepty a technologie.</p>
+    <p>Podívej se pod pokličku IT v kurzu {{ introCourse }}.
+introCourse: 'DC-101'
 sections:
     - name: Základní digitální dovednosti
       description: >
           DigComp 2.2 (Digital Competence Framework for Citizens) je rámec digitálních dovedností vyvinutý Evropskou komisí.
           Jedná se o soubor dovedností, které jednotlivci potřebují k úspěšnému a efektivnímu využívání digitálních technologií
           ve svém osobním a profesním životě. 
-      competencies: [ 'content', 'data', 'security' ]
+      competencies: [ 'content', 'data', 'security', 'programming' ]
     - name: Firemní systémy
       description: >
           Naučte se efektivně používat firemní systémy
