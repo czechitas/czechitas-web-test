@@ -1,22 +1,21 @@
 ---
 layout: default.njk
 pagination:
-    data: topics
+    data: categories
     size: 1
     addAllPagesToCollections: true
     alias: item
     filter:
         - commercial
-permalink: "{{ topics[item].url }}/index.html"
+permalink: "{{ categories[item].url }}/index.html"
 eleventyComputed:
-  title: "{{ topics[item].name }}"
+  title: "{{ categories[item].name }}"
 ---
 {% from 'macros.njk' import cards, courseLink with context%}
-{% set topic = topics[item] %}
-{% if topic.intro %}{% renderVariable topic.intro, { introCourse: courseLink(topic.introCourse) } %}{% endif %}
-{% if topic.sections %}{% for section in topic.sections %}
-<h3>{{ section.name }}</h3>
-<p>{% renderVariable section.description, { introCourse: courseLink(section.introCourse) } %}</p>
-{% if section.roles %}{{ cards(roles, section.roles) }}{% endif %}
-{% if section.competencies %}{{ cards(competencies, section.competencies) }}{% endif %}
+{% set category = categories[item] %}
+{% if category.intro %}{% renderVariable category.intro, { introCourse: courseLink(category.introCourse) } %}{% endif %}
+{% if category.topics %}{% for topic in category.topics %}
+<h3>{{ topic.name }}</h3>
+<p>{% renderVariable topic.description, { introCourse: courseLink(topic.introCourse) } %}</p>
+{% if topic.subtopics %}{{ cards(subtopics, topic.subtopics) }}{% endif %}
 {% endfor %}{% endif %}

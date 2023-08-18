@@ -1,0 +1,43 @@
+name: Datová inženýrka
+url: /cesta-do-it/datova-inzenyrka/
+shortDescription: >
+    Specializuje se na práci s datovými sadami a zajišťuje sběr, transformaci a ukládání dat do vhodných úložišť. 
+    Jejím cílem je zabezpečit kvalitu a dostupnost dat pro další analytické účely. 
+cta: Chci být datová inženýrka
+roleDescription:
+    avatar: avatar.jpeg
+    aboutRole: > 
+        Když používáš počítač, mobil, internet, různé webové stránky, vytváříš spoustu dat. Datová inženýrka zajišťuje jejich sběr,
+        vytváří procesy pro vytahování dat z různých zdrojů, transformaci dat do vhodného formátu a nahrání do cílového úložiště,
+        navrhuje a spravuje databáze. Pracuje s velkými sklady dat a pomáhá zabezpečit, aby žádné informace nebyly ztraceny nebo
+        poškozeny. Zajišťuje, že data jsou dostupná rychle a bezpečně pro všechny, kteří je potřebují. Díky tomu pomáhá lidem 
+        a firmám uchovávat a využívat data, aby se mohly lépe rozhodovat a lépe chápat své zákazníky.
+    enjoyRole:
+        - máš ráda strategické hry, složité úkoly a výzvy, hádanky, matiku, zajímáš se o různé statistiky, o data, grafy atp.
+        - zajímá tě, jak věci udělat efektivnější
+        - při řešení problémů používáš neotřelá řešení
+        - dovedeš se zorientovat i ve velkém množství informací a udělat si závěr
+        - samozřejmě se zajímáš o technologie a ráda se učíš
+    competences:
+        - znalost databázových systémů (SQL, NoSQL)
+        - extrahování, transformace a načítání dat (ETL)
+        - programovací jazyk Python
+        - cloudové technologie 
+        - znalost big data a jazyka Spark
+        - docker a kontejnerizace
+        - aktivní komunikativní angličtina
+courses:
+    pathImg: cesta/datova-inzenyrka.png
+    career: true
+    intro: 'DAT-(101|121)' 
+    core: 'DAT-(111|.4.|221|322)'
+    extended: 'DAT-321'
+selfStudy:
+    - title: SkillsBuild
+      description: >
+        <p>SkillsBuild je online bezplatná vzdělávací platforma vyvíjená společností IBM. Nabízí široké spektrum pestrého vzdělávacího obsahu zcela zdarma s možností zakončit studium digitálním certifikátem u vybraných kurzů. Obsah platformy je převážně v anglickém jazyce s několika kurzy přeložených do českého jazyka.</p>
+        <p>Vystudujte kurzy z tématu "Datová analýza a datová věda".</p>
+        <p>➡️ Přihlásit na <a href="https://sb-auth.skillsbuild.org/signup?ngo-id=0261">SkillsBuild</a></p> 
+team:
+    po: michal.kucera
+    garant: nejake.jmeno

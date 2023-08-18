@@ -1,0 +1,20 @@
+name: Bezpečnost a ochrana soukromí 
+url: /digitalni-dovednosti/bezpecnost/
+shortDescription: >
+    Bezpečnost na prvním místě.
+cta: Chci být v bezpečí
+courses: 
+    core: 'DC-.4.'
+selfStudy:
+    - title: Videa na YouTube
+      description: >
+        <p>Pokud máš třeba jen chvilku při cestě autobusem do práce máme pro tebe kratší vzdělávací videa na YouTube.</p>
+        <ul>
+          <li><a href="https://youtu.be/QN4jSgey6u8">Bezpečnost na Internetu</a></a>
+          <li><a href="https://youtu.be/QZgytu8LIns">Přihlašování a hesla</a></a>
+          <li><a href="https://youtu.be/eGql97m8XSg">Jak na wifi a proč nepoužívat wifi veřejnou</a>
+          <li><a href="https://youtu.be/rxSL6Ao3wSw">Bezpečnost na vašich zařízeních</a>
+        </ul>
+team:
+    po: radek.novak
+    garant: nejake.jmeno

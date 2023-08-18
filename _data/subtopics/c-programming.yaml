@@ -3,7 +3,8 @@ url: /digitalni-dovednosti/programovani/
 shortDescription: >
     Nauč se řešit problémy pomocí algoritmizace
 cta: Chci programovat
-courses: 'DC-103|WEB-131|WEB-141|DAT-121'
+courses: 
+    core: 'DC-103|WEB-131|WEB-141|DAT-121'
 selfStudy:
   - title: Videa na YouTube
     description: >
@@ -11,4 +12,6 @@ selfStudy:
       <ul>
         <li><a href="https://youtu.be/uozuH4L1cRU">Co je algoritmizace?</a></a>
       </ul>
-
+team:
+    po: michal.kucera
+    garant: nejake.jmeno

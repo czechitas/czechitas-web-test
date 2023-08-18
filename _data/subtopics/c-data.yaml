@@ -3,4 +3,8 @@ url: /digitalni-dovednosti/data/
 shortDescription: >
     Objev možnosti práce s daty
 cta: Chci tvořit obsah
-courses: 'DC-.3.'
+courses: 
+    core: 'DC-.3.'
+team:
+    po: michal.kucera
+    garant: nejake.jmeno

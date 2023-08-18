@@ -1,35 +1,35 @@
 ---
 layout: default.njk
 pagination:
-    data: roles
+    data: subtopics
     size: 1
     addAllPagesToCollections: true
     alias: item
-permalink: "{{ roles[item].url }}/index.html"
+permalink: "{{ subtopics[item].url }}/index.html"
 eleventyComputed:
-  title: "{{ roles[item].name }}"
+  title: "{{ subtopics[item].name }}"
 ---
 {% from 'macros.njk' import courseTable with context%}
-{% set role = roles[item] %}
-{% image role.avatar, role.name %}
+{% set subtopic = subtopics[item] %}
 
-<h3>Co {{ role.name }} dělá?</h3>
+{% if subtopic.roleDescription %}
+{% set role = subtopic.roleDescription %}
+{% image role.avatar, subtopic.name %}
+
+<h3>Co {{ subtopic.name }} dělá?</h3>
 <p>{{ role.aboutRole }}</p>
-
-<h3>{{ role.name }} tě bude bavit, pokud ...</h3>
+<h3>{{ subtopic.name }} tě bude bavit, pokud ...</h3>
 <ul>
 {% for item in role.enjoyRole %}
     <li>{{ item }}</li>
 {% endfor %}
 </ul>
-
 <h3>Potřebné dovednosti</h3>
 <ul>
 {% for item in role.competences %}
     <li>{{ item }}</li>
 {% endfor %}
 </ul>
-
 {% if salary[item] %}
 <h3>Informace z firem</h3>
 <ul>
@@ -38,44 +38,58 @@ eleventyComputed:
 </ul>
 <p><i>Více informací na serveru <a href="{{salary[item].link}}">Platy.cz</a></i></p>
 {% endif %}
+{% endif %}
 
+{% if subtopic.courses %}
+{% set crs = subtopic.courses %}
+{% if crs.pathImg%}
 <h3>Czechicesta</h3>
-{% image role.pathImg, "Czechicesta" %}
+{% image crs.pathImg, "Czechicesta" %}
+{% endif %}
 
-{% if role.courses.intro %}
+{% if crs.intro %}
 <h4>Úvodní kurzy oboru</h4>
 <p>S těmito kurzy bys měla začít pokud o daném oboru nic nevíš:</p>
-{{ courseTable(role.courses.intro) }}
+{{ courseTable(crs.intro) }}
 {% endif %}
 
+{% if crs.core %}
 <h4>Základní kurzy oboru</h4>
-{{ courseTable(role.courses.core) }}
-
-<p>Pro větší uplatnitelnost doporučujeme naše kurzy <a href="/karierove-poradenstvi/">kariérového poradenství</a>.<p>
-
-{% if role.courses.extended %}
-<h4>Rozvojové kurzy oboru</h4>
-{{ courseTable(role.courses.extended) }}
+{{ courseTable(crs.core) }}
 {% endif %}
 
-{% if role.selfStudy %}
+{% if crs.career %}
+<p>Pro větší uplatnitelnost doporučujeme naše kurzy <a href="/karierove-poradenstvi/">kariérového poradenství</a>.<p>
+{% endif %}
+
+{% if crs.extended %}
+<h4>Rozvojové kurzy oboru</h4>
+{{ courseTable(crs.extended) }}
+{% endif %}
+{% endif %}
+
+
+{% if subtopic.selfStudy %}
 <h3>Samostudium<h3>
-{% for item in role.selfStudy %}
+{% for item in subtopic.selfStudy %}
     <h4>{{ item.title }}</h4>
     {{ item.description | safe }}
 {% endfor %}    
-
 {% endif %}
 
+{% if subtopic.team %}
+{% set team = subtopic.team %}
 <h3>Czechitas tým</h3>
 <ul>
-    <li>Produktový manažer: {{ role.team.po }} </li>
-    <li>Garant vzdělání: {{ role.team.garant }} </li>
-    <li>Expertní tým: {{ role.team.experts }} </li>
+    <li>Produktový manažer: {{ team.po }} </li>
+    <li>Garant vzdělání: {{ team.garant }} </li>
+    <li>Expertní tým: {{ team.experts }} </li>
 </ul>
-{% if role.partners %}
+{% endif %}
+
+{% if subtopic.partners %}
 <h3>Partneři</h3>
-{% for partnerId in role.partners %}
+{% for partnerId in subtopic.partners %}
     {% set partner = collections.partners | getPartner(partnerId) %}
     {% set item = partner.data.item %}
     <a href="{{ partner.page.url }}" style="margin:15px">{% image item.logo, item.name %}</a>

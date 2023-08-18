@@ -6,7 +6,7 @@ eleventyNavigation:
     title: Domů
 ---
 {% from 'macros.njk' import cards with context%}
-{{ cards(topics, ['competencies', 'career','commercial'], false) }}
+{{ cards(categories, ['competencies', 'career','commercial'], false) }}
 
 </div></div>
 <div class="section hp wf-section"><div class="container w-container">

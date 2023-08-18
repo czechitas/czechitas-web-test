@@ -1,0 +1,16 @@
+name: Google Workspace
+url: /digitalni-dovednosti/google-workspace/
+shortDescription: >
+    Google nástroje pro efektivní práci v kanceláři i z domova.
+cta: Chci umět Google Workspace
+selfStudy:
+    - title: Videa na YouTube
+      description: >
+        <p>Pokud máš třeba jen chvilku při cestě autobusem do práce máme pro tebe kratší vzdělávací videa na YouTube.</p>
+        <ul>
+          <li><a href="https://youtu.be/yunTDLVEJ2U">Jak na Google Workspace?</a></a>
+          <li><a href="https://youtu.be/met_pO0DjuU">Jak na Google Disk?</a></a>
+        </ul>
+team:
+    po: michaela.popova
+    garant: nejake.jmeno

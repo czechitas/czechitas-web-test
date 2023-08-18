@@ -3,4 +3,8 @@ url: /digitalni-dovednosti/salesforce/
 shortDescription: >
     Salesforce
 cta: Chci poznat Salesforce
-courses: 'DC-.6.'
+courses: 
+    core: 'DC-.6.'
+team:
+    po: pavel.franc
+    garant: nejake.jmeno

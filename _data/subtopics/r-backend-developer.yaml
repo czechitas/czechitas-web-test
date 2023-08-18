@@ -1,0 +1,33 @@
+name: Vývojářka backendu
+url: /cesta-do-it/vyvojarka-backendu/
+shortDescription: >
+    Specializuje se na tvorbu serverové části aplikace, její komunikaci s databází. Její práce se zaměřuje na implementaci 
+    aplikační logiky, zpracování dat a poskytování těchto funkcionalit pro frontend webové aplikace
+cta: Chci být vývojářka backendu
+roleDescription:
+    avatar: avatar.jpeg
+    aboutRole: > 
+        Backend je vývoj kódu na straně serveru - tj. ne na straně, kterou vidí uživatel např. na e-shopových webovkách,
+        ale na straně funkčnosti samotné, která běží na pozadí. Frontendová vývojářka tedy vytvořila tlačítko viditelné na webu,
+        backendová vývojářka programuje to, co se děje potom, co tlačítko na e-shopu stiskneš - tedy bez backendu by se po stisknutí
+        tlačítka nic nestalo. Z toho je viditelné, že backendová vývojářka se uplatní téměř všude, kde se vyvíjí mobilní nebo webová
+        aplikace a spolupracuje mj. s frontendovými vývojáři.
+    enjoyRole:
+        - máš ráda matematiku, hádanky, hlavolamy, deskovky, stavebnice
+        - dokážeš rozpoznat ve věcech vzorce, pravidelnosti, rozložit problém na menší části, dokážeš sepsat dobrý návod nebo postup
+        - máš ráda organizaci, pořádek ve věcech a systém, ráda se zaměřuješ na efektivitu toho, co děláš
+        - není pro tebe příliš důležité, aby výsledky tvé práce byly přímo vidět a mohlas je snadno někomu ukázat
+        - samozřejmě se zajímáš o technologie a ráda se učíš
+    competences:
+        - databáze, bezpečnost
+        - API a webové služby
+        - verzovací systémy (GIT)
+        - jazyky jako python, C**#**, Go, Java, JavaScript
+        - angličtina na úrovni čtení dokumentace, pokud se budeš ucházet o práci v mezinárodní firmě nebo se zahraničními zákazníky, počítej s tím, že budeš potřebovat aktivní komunikativní angličtinu
+courses:
+    pathImg: cesta/vyvojarka-backendu.png
+    career: true
+    intro: 'WEB-10.'
+    core: 'WEB-(.41|.51)'
+    extended: 'WEB-.1.'
+partners: ['barclays', 'sap', 'thermo']

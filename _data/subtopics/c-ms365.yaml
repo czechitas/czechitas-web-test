@@ -3,4 +3,8 @@ url: /digitalni-dovednosti/ms365/
 shortDescription: >
     Microsoft 365 
 cta: Chci poznat Microsoft 365
-courses: 'DC-.5.'
+courses: 
+    core: 'DC-.5.'
+team:
+    po: michal.kucera
+    garant: nejake.jmeno

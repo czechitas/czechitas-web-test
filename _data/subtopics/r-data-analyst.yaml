@@ -1,0 +1,43 @@
+name: Datová analytička
+url: /cesta-do-it/datova-analyticka/
+shortDescription: >
+    Zaměřuje se na analýzu dat s cílem odhalit vzorce, trendy a informace, které mohou vést k lepšímu porozumění a 
+    rozhodování ve firmě. Využívá statistické metody a datové modelování k identifikaci klíčových poznatků a poskytuje 
+    informace pro informovaná rozhodnutí.
+cta: Chci být datová analytička
+roleDescription:
+    avatar: avatar.jpeg
+    aboutRole: > 
+        Když používáš svůj počítač, internet, různé webové stránky, vytváříš spoustu dat. Datový analytik tyto informace sbírá,
+        třídí a analyzuje, aby odhalil užitečné informace. Může zkoumat například, jak lidé používají sociální média, jak nakupují
+        online apod. Jeho cílem je odpovědět na konkrétní otázky a pomáhat při pochopení chování zákazníků a informovaném rozhodování
+        managementu. Zaměřuje se na analýzu existujících dat, hledání vzorců, trendů a informací, které mohou pomoci firmě nebo
+        organizaci lépe pochopit minulé události a současné situace. Data vytahuje, interpretuje, dává je do kontextu, dává jim
+        snadno pochopitelnou a vizuálně jednoduchou podobu.
+    enjoyRole:
+        - ptáš se po datech, přemýšlíš nad informacemi, často se ptáš “proč”, zaujmou tě různé tabulky, grafy nebo statistiky, Excel tě neděsí, ale fascinuje
+        - ráda řešíš hádanky a logické úlohy, baví tě strategické hry
+        - baví tě sledovat trendy v oblastech, které tě zajímají, a zkoumat, co je populární
+        - baví tě vyprávět příběhy nebo sdílet informace a myšlenky s přáteli
+        - samozřejmě se zajímáš o technologie a ráda se učíš
+    competences:
+        - znalost databázových systémů (SQL, NoSQL)
+        - základy statistiky a datové analýzy
+        - programovací jazyk Python
+        - vizualizační nástroje typu PowerBI nebo Tableau
+        - aktivní komunikativní angličtina
+courses:
+    pathImg: cesta/datova-analyticka.png
+    career: true
+    intro: 'DAT-(101|121)' 
+    core: 'DAT-(111|221|322|332)'
+    extended: 'DAT-321'
+selfStudy:
+    - title: SkillsBuild
+      description: >
+        <p>SkillsBuild je online bezplatná vzdělávací platforma vyvíjená společností IBM. Nabízí široké spektrum pestrého vzdělávacího obsahu zcela zdarma s možností zakončit studium digitálním certifikátem u vybraných kurzů. Obsah platformy je převážně v anglickém jazyce s několika kurzy přeložených do českého jazyka.</p>
+        <p>Vystudujte kurzy z tématu "Datová analýza a datová věda".</p>
+        <p>➡️ Přihlásit na <a href="https://sb-auth.skillsbuild.org/signup?ngo-id=0261">SkillsBuild</a></p> 
+team:
+    po: michal.kucera
+    garant: nejake.jmeno
