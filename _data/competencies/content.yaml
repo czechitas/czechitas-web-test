@@ -4,3 +4,12 @@ shortDescription: >
     Objev možnosti tvorby webových stránek a grafiky.
 cta: Chci tvořit obsah
 courses: 'DC-.1.|WEB-101'
+selfStudy:
+  - title: Videa na YouTube
+    description: >
+      <p>Pokud máš třeba jen chvilku při cestě autobusem do práce máme pro tebe kratší vzdělávací videa na YouTube.</p>
+      <ul>
+        <li><a href="https://youtu.be/Q2Scf17INzw">Canva - jednoduchý grafický nástroj</a></a>
+        <li><a href="https://youtu.be/pFAehfRO0VM">Vytvoř si web s Google Sites</a></a>
+      </ul>
+

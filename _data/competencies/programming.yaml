@@ -4,3 +4,11 @@ shortDescription: >
     Nauč se řešit problémy pomocí algoritmizace
 cta: Chci programovat
 courses: 'DC-103|WEB-131|WEB-141|DAT-121'
+selfStudy:
+  - title: Videa na YouTube
+    description: >
+      <p>Pokud máš třeba jen chvilku při cestě autobusem do práce máme pro tebe kratší vzdělávací videa na YouTube.</p>
+      <ul>
+        <li><a href="https://youtu.be/uozuH4L1cRU">Co je algoritmizace?</a></a>
+      </ul>
+

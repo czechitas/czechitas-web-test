@@ -14,6 +14,14 @@ eleventyComputed:
 
 {{ courseTable(competency.courses) }}
 
+{% if competency.selfStudy %}
+<h3>Samostudium<h3>
+{% for item in competency.selfStudy %}
+    <h4>{{ item.title }}</h4>
+    {{ item.description | safe }}
+{% endfor %}    
+{% endif %}
+
 <h3>Czechitas tým</h3>
 <ul>
     <li>Produktový manažer: {{ role.team.po }} </li>
