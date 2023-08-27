@@ -1,18 +1,18 @@
-const eleventyImg = require("@11ty/eleventy-img");
+const Image = require("@11ty/eleventy-img");
 const eleventyNavigation = require("@11ty/eleventy-navigation");
 const yaml = require("js-yaml");
 const { parse } = require('csv-parse/sync');
 const { EleventyRenderPlugin } = require("@11ty/eleventy");
 const generateSVG = require('./svg.js')
 
-function imageShortcode(src, alt = '', cls = '', sizes = [], widths = [300, 600]) {
-    let file = "./content/assets/img/" + src
-	let options = { widths: widths, formats: ['auto'], outputDir: "./_site/img/", };
-	eleventyImg(file, options);
-
-	let imageAttributes = { class: cls, alt, sizes, loading: "lazy", decoding: "async", };
-	let metadata = eleventyImg.statsSync(file, options);
-	return eleventyImg.generateHTML(metadata, imageAttributes);
+async function imageShortcode(src, alt = '', widths = []) {
+    if ( !src.startsWith('http') ) {
+        src = "./content/assets/img/" + src
+    }
+	let options = { widths: [...widths, null], formats: ['auto'], outputDir: "./_site/img/", };
+    let stats = await Image(src, options);
+    let props = Object.values(stats)[0][0]
+    return `<img src="${props.url}" width="${props.width}" height="${props.height}" alt="${alt}">`;
 }
 
 module.exports = function(eleventyConfig) {
@@ -23,8 +23,7 @@ module.exports = function(eleventyConfig) {
         const { renderTemplate } = eleventyConfig.javascriptFunctions;
         return await renderTemplate(template, 'njk', data );
     });
-    eleventyConfig.addNunjucksShortcode("image", imageShortcode);
-    // eleventyConfig.addGlobalData("courses", () => {console.log()})
+    eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
     eleventyConfig.addCollection("courses", function(collectionApi) {
        return collectionApi.getFilteredByGlob('./content/courses.njk'); 
     });

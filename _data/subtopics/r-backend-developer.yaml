@@ -30,4 +30,4 @@ courses:
     intro: 'WEB-10.'
     core: 'WEB-(.41|.51)'
     extended: 'WEB-.1.'
-partners: ['barclays', 'sap', 'thermo']
+partners: ['barclays', 'sap', 'thermofisher']

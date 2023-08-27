@@ -44,7 +44,7 @@ eleventyComputed:
 {% set crs = subtopic.courses %}
 {% if crs.pathImg%}
 <h3>Czechicesta</h3>
-{% image crs.pathImg, "Czechicesta" %}
+{% image crs.pathImg, "Czechicesta", [800] %}
 {% endif %}
 
 {% if crs.intro %}
@@ -91,7 +91,7 @@ eleventyComputed:
 <h3>Partneři</h3>
 {% for partnerId in subtopic.partners %}
     {% set partner = collections.partners | getPartner(partnerId) %}
-    {% set item = partner.data.item %}
-    <a href="{{ partner.page.url }}" style="margin:15px">{% image item.logo, item.name %}</a>
+    {% set dataItem = partner.data.item %}
+    <a href="{{ partner.page.url }}" style="margin:15px">{% image dataItem.logo, dataItem.name, [300] %}</a>
 {% endfor %}
 {% endif %}
